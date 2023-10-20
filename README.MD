@@ -46,7 +46,7 @@ Add the following line at the end:
 
     export PATH=$PATH:/path/to/your/executable/directory
 
-Replace /path/to/your/executable/directory with the path you copied earlier.
+Replace ```/path/to/your/executable/directory``` with the path you copied earlier.
 
 Save the file and exit nano by pressing Ctrl+X, then Y, then Enter.
 
