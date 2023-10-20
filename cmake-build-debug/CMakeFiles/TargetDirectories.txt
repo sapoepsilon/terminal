@@ -1,0 +1,3 @@
+/Users/ismatullamansurov/Developer/terminal/cmake-build-debug/CMakeFiles/terminal.dir
+/Users/ismatullamansurov/Developer/terminal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ismatullamansurov/Developer/terminal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
