@@ -34,3 +34,44 @@ After successfully compiling the source code, you can run the program by executi
 ./file_terminal
 ```
 
+# Adding Executable to Path
+Modify .bashrc for Bash or .zshrc for Zsh
+Modify .bashrc for Bash or .zshrc for Zsh
+
+#### For Bash users: Open your .bashrc file by running:
+
+    nano ~/.bashrc
+
+Add the following line at the end:
+
+    export PATH=$PATH:/path/to/your/executable/directory
+
+Replace /path/to/your/executable/directory with the path you copied earlier.
+
+Save the file and exit nano by pressing Ctrl+X, then Y, then Enter.
+
+#### For Zsh users: Open your .zshrc file by running:
+
+    nano ~/.zshrc
+
+Add the following line at the end:
+
+    export PATH=$PATH:/path/to/your/executable/directory
+
+Replace /path/to/your/executable/directory with the path you copied earlier.
+
+Save the file and exit nano by pressing Ctrl+X, then Y, then Enter.
+
+Reload Your Shell Configuration
+
+To make the changes take effect, you'll need to reload your shell's configuration file:
+
+For Bash:
+
+    source ~/.bashrc
+
+For Zsh:
+
+    source ~/.zshrc
+
+Now, you should be able to run file_terminal from anywhere in your terminal.
